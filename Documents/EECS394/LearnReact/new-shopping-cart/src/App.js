@@ -46,10 +46,10 @@ class App extends Component {
   render() {
     return (
       <div className="App-header">
-        <h1>Let's Shop!</h1>
+        <h1 className="title">Let's Shop!</h1>
         <div className="select">
-          <p>Order by </p>
-          <select>
+          <p className="selectText">Order by </p>
+          <select className="dropdown">
             <option value="select">Select</option>
             <option value="LowestHighest">Lowest to highest</option>
             <option value="HighestLowest">Highest to lowest</option>
