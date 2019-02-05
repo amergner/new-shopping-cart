@@ -1,0 +1,94 @@
+.App {
+  color: blue;
+  text-align: center;
+}
+
+.Item {
+  text-align: center;
+  width: 24%;
+  border: solid 1px transparent;
+  /*transition: border-color 0.2s ease-out;*/
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 60px;
+  margin-bottom: 10px;
+}
+
+.Item:hover {
+  border-color: #ECECEC;
+  transition: border-color 0.2s ease-out;
+}
+
+.imagePackage {
+  position: relative;
+}
+
+.shipping {
+  font-size: 10px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.Image {
+  width: 200px;
+  height: auto;
+}
+
+.itemName {
+  font-size: 14px;
+}
+
+.price::before {
+  content: "$";
+}
+
+.price {
+  font-size: 18px;
+}
+
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.select {
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
